@@ -1,45 +1,23 @@
-use strict;
-use warnings;
-package Task::Kensho::XML;
-BEGIN {
-  $Task::Kensho::XML::AUTHORITY = 'cpan:PERIGRIN';
-}
-# git description: v0.34-TRIAL-48-g7444af1
-$Task::Kensho::XML::VERSION = '0.34001'; # TRIAL
-# ABSTRACT: XML Development
-
-__END__
-
-=pod
-
-=encoding UTF-8
-
-=head1 NAME
+# NAME
 
 Task::Kensho::XML - XML Development
 
-=head1 VERSION
+# VERSION
 
 version 0.34001
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
     > cpanm --interactive Task::Kensho::XML
 
-=head1 DESCRIPTION
+# DESCRIPTION
 
-=for stopwords Buddhism EPO Kenshō nonduality amongst Organisation installable
+From [http://en.wikipedia.org/wiki/Kensho](http://en.wikipedia.org/wiki/Kensho):
 
-From L<http://en.wikipedia.org/wiki/Kensho>:
-
-=over 4
-
-Kenshō (見性) (C. Wu) is a Japanese term for enlightenment
-experiences - most commonly used within the confines of Zen
-Buddhism - literally meaning "seeing one's nature"[1] or "true
-self."[2] It generally "refers to the realization of nonduality of
-
-=back
+> Kenshō (見性) (C. Wu) is a Japanese term for enlightenment
+> experiences - most commonly used within the confines of Zen
+> Buddhism - literally meaning "seeing one's nature"\[1\] or "true
+> self."\[2\] It generally "refers to the realization of nonduality of
 
 Task::Kensho is a first cut at building a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
@@ -54,7 +32,7 @@ The modules that are bundled by Task::Kensho are broken down into
 several categories and are still being considered. They are all taken
 from various top 100 most used perl modules lists and from discussions
 with various subject matter experts in the Perl Community. That said,
-this bundle does I<not> follow the guidelines established for the EPO-EC
+this bundle does _not_ follow the guidelines established for the EPO-EC
 for peer review via industry advisers.
 
 Starting in 2011, Task::Kensho split its sub-groups of modules into
@@ -63,41 +41,35 @@ their modules by default. This facilitates the ease and simplicity the
 distribution aims to achieve. Each Task::Kensho sub-task is listed at the
 beginning of its section in this documentation.
 
-=head2 XML Development: Task::Kensho::XML
+## XML Development: Task::Kensho::XML
 
-=for stopwords libxml libxml2 libxslt
+- [XML::Generator::PerlData](https://metacpan.org/pod/XML::Generator::PerlData)
 
-=over 4
+    Perl extension for generating SAX2 events from nested Perl data structures.
 
-=item L<XML::Generator::PerlData>
+- [XML::LibXML](https://metacpan.org/pod/XML::LibXML)
 
-Perl extension for generating SAX2 events from nested Perl data structures.
+    Perl Binding for libxml2
 
-=item L<XML::LibXML>
+- [XML::LibXSLT](https://metacpan.org/pod/XML::LibXSLT)
 
-Perl Binding for libxml2
+    Interface to the gnome libxslt library
 
-=item L<XML::LibXSLT>
+- [XML::SAX](https://metacpan.org/pod/XML::SAX)
 
-Interface to the gnome libxslt library
+    Simple/Streaming API for XML
 
-=item L<XML::SAX>
+- [XML::SAX::Writer](https://metacpan.org/pod/XML::SAX::Writer)
 
-Simple/Streaming API for XML
+    Output XML from SAX2 Events
 
-=item L<XML::SAX::Writer>
-
-Output XML from SAX2 Events
-
-=back
-
-=head1 RELEASE SCHEDULE
+# RELEASE SCHEDULE
 
 Starting with release 0.18 Task::Kensho was moved to a monthly release
 cycle. This will facilitate a consistent schedule for upstream vendors
 to track the changes in Task::Kensho.
 
-=head1 BUGS AND LIMITATIONS
+# BUGS AND LIMITATIONS
 
 This list is by no means comprehensive of the "Good" Modules on CPAN.
 Nor is this necessarily the correct path for all developers. Each of
@@ -106,23 +78,21 @@ better for you. This is however a path to good perl practice, and a
 starting place on the road to Enlightened Perl programming.
 
 Please report any bugs or feature requests to
-C<bug-task-kensho@rt.cpan.org>, or through the web interface at
-L<http://rt.cpan.org>.
+`bug-task-kensho@rt.cpan.org`, or through the web interface at
+[http://rt.cpan.org](http://rt.cpan.org).
 
-=head1 SEE ALSO
+# SEE ALSO
 
-L<http://www.enlightenedperl.org/>,
-L<Perl::Dist::Strawberry|Perl::Dist::Strawberry>
+[http://www.enlightenedperl.org/](http://www.enlightenedperl.org/),
+[Perl::Dist::Strawberry](https://metacpan.org/pod/Perl::Dist::Strawberry)
 
-=head1 AUTHOR
+# AUTHOR
 
 Chris Prather <chris@prather.org>
 
-=head1 COPYRIGHT AND LICENSE
+# COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2008 by Chris Prather.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-=cut
