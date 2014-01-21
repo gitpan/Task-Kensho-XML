@@ -4,7 +4,7 @@ Task::Kensho::XML - XML Development
 
 # VERSION
 
-version 0.34001
+version 0.34002
 
 # SYNOPSIS
 

@@ -4,8 +4,8 @@ package Task::Kensho::XML;
 BEGIN {
   $Task::Kensho::XML::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34-TRIAL-48-g7444af1
-$Task::Kensho::XML::VERSION = '0.34001'; # TRIAL
+# git description: v0.34001-TRIAL-22-g79cbe76
+$Task::Kensho::XML::VERSION = '0.34002'; # TRIAL
 # ABSTRACT: XML Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::XML - XML Development
 
 =head1 VERSION
 
-version 0.34001
+version 0.34002
 
 =head1 SYNOPSIS
 
