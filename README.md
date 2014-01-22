@@ -4,7 +4,7 @@ Task::Kensho::XML - A Glimpse at an Enlightened Perl: XML Development
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 
