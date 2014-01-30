@@ -4,7 +4,7 @@ Task::Kensho::XML - A Glimpse at an Enlightened Perl: XML Development
 
 # VERSION
 
-version 0.34004
+version 0.35
 
 # SYNOPSIS
 
@@ -49,6 +49,10 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 ## [Task::Kensho::XML](https://metacpan.org/pod/Task::Kensho::XML): XML Development
 
+### [RDF::Trine](https://metacpan.org/pod/RDF::Trine)
+
+An RDF Framework for Perl
+
 ### [XML::Generator::PerlData](https://metacpan.org/pod/XML::Generator::PerlData)
 
 Perl extension for generating SAX2 events from nested Perl data structures.
@@ -78,12 +82,6 @@ regarding which modules you wish to install.
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-# RELEASE SCHEDULE
-
-Starting with release 0.18, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in [Task::Kensho](https://metacpan.org/pod/Task::Kensho).
 
 # BUGS AND LIMITATIONS
 

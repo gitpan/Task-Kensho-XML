@@ -4,8 +4,8 @@ package Task::Kensho::XML;
 BEGIN {
   $Task::Kensho::XML::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34003-TRIAL-21-g9aa38ea
-$Task::Kensho::XML::VERSION = '0.34004'; # TRIAL
+# git description: v0.34004-TRIAL-36-g8bafbc3
+$Task::Kensho::XML::VERSION = '0.35';
 # ABSTRACT: A Glimpse at an Enlightened Perl: XML Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::XML - A Glimpse at an Enlightened Perl: XML Development
 
 =head1 VERSION
 
-version 0.34004
+version 0.35
 
 =head1 SYNOPSIS
 
@@ -71,7 +71,11 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 =head2 L<Task::Kensho::XML>: XML Development
 
-=for stopwords libxml libxml2 libxslt
+=for stopwords libxml libxml2 libxslt RDF
+
+=head3 L<RDF::Trine>
+
+An RDF Framework for Perl
 
 =head3 L<XML::Generator::PerlData>
 
@@ -102,12 +106,6 @@ regarding which modules you wish to install.
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-=head1 RELEASE SCHEDULE
-
-Starting with release 0.18, L<Task::Kensho> was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in L<Task::Kensho>.
 
 =head1 BUGS AND LIMITATIONS
 
