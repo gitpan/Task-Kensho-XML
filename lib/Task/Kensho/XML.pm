@@ -1,11 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::XML;
-BEGIN {
-  $Task::Kensho::XML::AUTHORITY = 'cpan:PERIGRIN';
-}
-# git description: v0.35-39-g5fa230e
-$Task::Kensho::XML::VERSION = '0.36';
+# git description: v0.36-36-g2b7dfef
+$Task::Kensho::XML::VERSION = '0.37';
 # ABSTRACT: A Glimpse at an Enlightened Perl: XML Development
 
 __END__
@@ -20,7 +17,7 @@ Task::Kensho::XML - A Glimpse at an Enlightened Perl: XML Development
 
 =head1 VERSION
 
-version 0.36
+version 0.37
 
 =head1 SYNOPSIS
 
@@ -69,9 +66,9 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 =head1 RECOMMENDED MODULES
 
-=head2 L<Task::Kensho::XML>: XML Development
-
 =for stopwords libxml libxml2 libxslt RDF
+
+=head2 L<Task::Kensho::XML>: XML Development
 
 =head3 L<RDF::Trine>
 
@@ -133,5 +130,25 @@ This software is copyright (c) 2008 by Chris Prather.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=head1 CONTRIBUTORS
+
+=for stopwords Karen Etheridge Leo Lapworth Chris Nehren
+
+=over 4
+
+=item *
+
+Karen Etheridge <ether@cpan.org>
+
+=item *
+
+Leo Lapworth <leo@cuckoo.org>
+
+=item *
+
+Chris Nehren <apeiron@cpan.org>
+
+=back
 
 =cut
