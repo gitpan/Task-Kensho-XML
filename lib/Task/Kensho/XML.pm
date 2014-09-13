@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::XML;
-# git description: v0.36-36-g2b7dfef
-$Task::Kensho::XML::VERSION = '0.37';
+# git description: v0.37-38-gd899486
+$Task::Kensho::XML::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: XML Development
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::XML - A Glimpse at an Enlightened Perl: XML Development
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
